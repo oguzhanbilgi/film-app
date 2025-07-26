@@ -1,0 +1,12 @@
+{
+  "name": "film-app-backend",
+  "version": "1.0.0",
+  "description": "Film App Backend for Railway deployment",
+  "scripts": {
+    "build": "mvn clean package -DskipTests",
+    "start": "java -jar target/film-app-0.0.1-SNAPSHOT.jar"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+} 
