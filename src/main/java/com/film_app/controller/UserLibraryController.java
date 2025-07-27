@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/user-library")
-@CrossOrigin(origins = {"http://localhost:3000", "https://film-app-delta.vercel.app", "https://film-qwi1jvwwu-oguzhanbilgi1-6614s-projects.vercel.app"})
+@CrossOrigin(origins = "*")
 public class UserLibraryController {
     
     @Autowired
