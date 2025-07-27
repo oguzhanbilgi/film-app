@@ -10,7 +10,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/user-library")
-@CrossOrigin(origins = "*")
 public class UserLibraryController {
     
     @Autowired
